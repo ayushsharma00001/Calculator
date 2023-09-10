@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Baloo+Bhaijaan+2&family=Bree+Serif&family=Poppins:wght@300;400;500&family=Roboto:wght@500&display=swap');
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 html,body{
     display: flex;
@@ -24,14 +26,24 @@ html,body{
     background-color: white;
     box-shadow: -2px 0 10px white;
 }
-
+.pinput{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .input1{
     margin-top: 1rem;
-    border: 2px solid black;
-    padding: 0.5rem;
+    /* border: 2px solid black; */
+    /* padding: 1rem 0.5rem; */
     border-radius: 5px;
     width: 92%;
     font-weight: 900;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 25px;
+
 }
 .items{
     margin: 4rem 0;
@@ -54,6 +66,7 @@ html,body{
     background-color: black;
     color: white;
     font-weight: 700;
+    box-shadow: 0 0 6px black
 }
 .zero{
     flex: 1;
@@ -69,4 +82,5 @@ html,body{
 
 .green{
     background-color: rgb(66, 187, 66);
+    border:rgb(66, 187, 66);
 }
